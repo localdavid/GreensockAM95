@@ -13,3 +13,7 @@ body{
   width: 120px;
   height: 120px;
 }
+
+#stripe_3 {
+	fill: red;
+}

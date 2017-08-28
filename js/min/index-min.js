@@ -1,0 +1,1 @@
+window.onload=function(){TweenLite.to("wrapper",10,{top:100})},console.log("test");
