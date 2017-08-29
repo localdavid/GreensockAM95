@@ -1,6 +1,5 @@
-/*external js
-https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenLite.min.js
-https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/CSSPlugin.min.js
+/* GreenSock TweenMax
+https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js
 */
 
 
