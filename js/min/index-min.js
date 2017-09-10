@@ -1,1 +1,1 @@
-window.onload=function(){TweenLite.to("wrapper",10,{top:100})},console.log("test");
+window.onload=function(){TweenLite.to("#wrapper",10,{left:100})},TweenMax.to("#stripe_3",5,{className:"+=end"});

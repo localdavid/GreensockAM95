@@ -1,0 +1,28 @@
+$color-1: #ff4b01;
+$color-2: #56ef65;
+
+body{
+  background-color:red;
+  color:white;
+}
+#demo {
+  width: 300px;
+  height: 160px;	
+  background-color: #333;
+  padding: 8px;
+}
+#wrapper {
+  position: relative;
+  width: 300px;
+  height: 160px;
+}
+
+
+#stripe_3 {
+// 	fill: $color-1;
+}
+
+.end {
+	fill: $color-2;
+}
+

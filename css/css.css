@@ -1,0 +1,17 @@
+body {
+  background-color: red;
+  color: white; }
+
+#demo {
+  width: 300px;
+  height: 160px;
+  background-color: #333;
+  padding: 8px; }
+
+#wrapper {
+  position: relative;
+  width: 300px;
+  height: 160px; }
+
+.end {
+  fill: #56ef65; }
