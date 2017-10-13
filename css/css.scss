@@ -1,3 +1,10 @@
+
+// CSS variable: https://developers.google.com/web/updates/2016/02/css-variables-why-should-you-care
+
+:root {
+	--main-color: red;
+}
+
 $color-1: #ff4b01;
 $color-2: #56ef65;
 
@@ -10,6 +17,7 @@ body{
   height: 160px;	
   background-color: #333;
   padding: 8px;
+  background-color: var(--main-color);
 }
 #wrapper {
   position: relative;
