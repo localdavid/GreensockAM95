@@ -1,4 +1,5 @@
 
+/*
 
 // Moves shoe to right
 window.onload = function(){
@@ -8,6 +9,7 @@ window.onload = function(){
 
 
 TweenMax.to("#stripe_3", 5, {className:"+=end"});
+*/
 
 
 /*
