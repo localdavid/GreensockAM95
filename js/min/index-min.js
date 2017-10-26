@@ -1,0 +1,1 @@
+document.getElementById("stripe_3").style.fill="blue";
