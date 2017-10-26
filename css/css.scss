@@ -3,6 +3,8 @@
 
 :root {
 	--main-color: red;
+	--primary-color: red;
+	--secondary-color: green;
 }
 
 $color-1: #ff4b01;
@@ -27,7 +29,7 @@ body{
 
 
 #stripe_3 {
-// 	fill: $color-1;
+	fill: var(--primary-color);
 }
 
 .end {

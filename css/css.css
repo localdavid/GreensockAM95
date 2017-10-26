@@ -1,5 +1,7 @@
 :root {
-  --main-color: red; }
+  --main-color: red;
+  --primary-color: red;
+  --secondary-color: green; }
 
 body {
   background-color: red;
@@ -16,6 +18,9 @@ body {
   position: relative;
   width: 300px;
   height: 160px; }
+
+#stripe_3 {
+  fill: var(--primary-color); }
 
 .end {
   fill: #56ef65; }
