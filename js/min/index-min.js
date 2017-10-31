@@ -1,1 +1,0 @@
-window.getComputedStyle(document.stripe3).getPropertyValue("fill"),document.stripe3.setProperty("fill","--primary-color");

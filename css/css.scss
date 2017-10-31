@@ -1,14 +1,14 @@
 
 // CSS variable: https://developers.google.com/web/updates/2016/02/css-variables-why-should-you-care
 
+/*
 :root {
 	--main-color: red;
 	--primary-color: #fff22a;
 	--secondary-color: green;
 }
+*/
 
-$color-1: #ff4b01;
-$color-2: #56ef65;
 
 body{
   background-color:red;
@@ -28,11 +28,32 @@ body{
 }
 
 
-#stripe_3 {
-	fill: var(--primary-color);
+
+
+
+// CSS animation
+// https://www.safaribooksonline.com/library/view/svg-animations/9781491939697/ch02.html#animating_with_css
+
+	// First define keyframes
+
+@keyframes stripe3animation {
+	0% {
+		fill: white;
+	}
+	
+	50% {
+		fill: red;
+	}
+	
+	100% {
+		fill: black;
+	}
 }
 
-.end {
-	fill: $color-2;
+.animate {
+	animation-name: stripe3animation;
+	animation-duration: 5s;
+	animation-delay: .5s;
+	animation-direction: alternate;
 }
 
