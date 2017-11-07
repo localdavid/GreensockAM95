@@ -1,3 +1,6 @@
+
+// CSS variable: https://developers.google.com/web/updates/2016/02/css-variables-why-should-you-care
+
 /*
 :root {
 	--main-color: red;
@@ -5,32 +8,145 @@
 	--secondary-color: green;
 }
 */
-body {
-  background-color: red;
-  color: white; }
 
+
+body{
+  background-color:red;
+  color:white;
+}
 #demo {
   width: 300px;
-  height: 160px;
+  height: 160px;	
   background-color: #333;
   padding: 8px;
-  background-color: var(--main-color); }
-
+  background-color: var(--main-color);
+}
 #wrapper {
   position: relative;
   width: 300px;
-  height: 160px; }
+  height: 160px;
+}
+
+
+
+
+
+/*
+// CSS animation
+// https://www.safaribooksonline.com/library/view/svg-animations/9781491939697/ch02.html#animating_with_css
+*/
+
+
+/*
+// Stripe 1
+
+	// First define keyframes
+
+@keyframes stripe1animation {
+	0% {
+		fill: white;
+	}
+	
+	50% {
+		fill: red;
+	}
+	
+	100% {
+		fill: black;
+	}
+}
+
+.animate1 {
+	animation-name: stripe1animation;
+	animation-duration: 5s;
+	animation-delay: .5s;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+}
+
+
+// Stripe 2
+
+	// First define keyframes
+
+@keyframes stripe2animation {
+	0% {
+		fill: white;
+	}
+	
+	50% {
+		fill: red;
+	}
+	
+	100% {
+		fill: black;
+	}
+}
+
+.animate2 {
+	animation-name: stripe2animation;
+	animation-duration: 5s;
+	animation-delay: .5s;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+}
+*/
+
+
+// Stripe 3
+
+	// First define keyframes
 
 @keyframes stripe3animation {
-  0% {
-    fill: white; }
-  50% {
-    fill: red; }
-  100% {
-    fill: black; } }
-.animate {
-  animation-name: stripe3animation;
-  animation-duration: 5s;
-  animation-delay: .5s;
-  animation-direction: alternate;
-  animation-iteration-count: infinite; }
+	0% {
+		fill: white;
+	}
+	
+	50% {
+		fill: red;
+	}
+	
+	100% {
+		fill: black;
+	}
+}
+
+.animate3 {
+	animation-name: stripe3animation;
+	animation-duration: 5s;
+	animation-delay: .5s;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+}
+
+
+/*
+// Stripe 4
+
+@keyframes stripe4animation {
+	0% {
+		fill: red;
+	}
+	
+	50% {
+		fill: black;
+	}
+	
+	100% {
+		fill: white;
+	}
+}
+
+.animate4 {
+/* 	fill: red; */
+	animation-name: stripe4animation;
+	animation-duration: 5s;
+	animation-delay: .5s;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+}
+*/
+
+
+
+
