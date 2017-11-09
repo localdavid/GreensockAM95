@@ -1,9 +1,9 @@
 
 :root {
-	--main-color: #79cde5;
-	--primary-color: #4077b2;
-	--secondary-color: #083868;
-	--color4: #059c93;
+	--green-color: #56b9b5;
+	--blue-color-1: #376da8;
+	--blue-color-2: #243e71;
+	--blue-color-3: #2e325d.;
 }
 
 body {
@@ -24,19 +24,19 @@ body {
 
 @keyframes stripeanimation {
   0% {
-    fill: var(--main-color); }
+    fill: var(--green-color); }
   25% {
-    fill: var(--primary-color); }
+    fill: var(--blue-color-1); }
   50% {
-    fill: var(--secondary-color); }
+    fill: var(--blue-color-2); }
   75% {
-    fill: var(--color4); }
+    fill: var(--blue-color-3); }
 }
     
-.animate {
+.animate1 {
   animation-name: stripeanimation;
   animation-duration: 10s;
-  animation-delay: .5s;
+  animation-delay: 0s;
   animation-direction: alternate;
   animation-iteration-count: infinite;
  }
@@ -44,7 +44,23 @@ body {
 .animate2 {
   animation-name: stripeanimation;
   animation-duration: 8s;
-  animation-delay: 0s;
+  animation-delay: .8s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+  
+.animate3 {
+  animation-name: stripeanimation;
+  animation-duration: 8s;
+  animation-delay: 1.3s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+  
+.animate4 {
+  animation-name: stripeanimation;
+  animation-duration: 8s;
+  animation-delay: 1.6s;
   animation-direction: alternate;
   animation-iteration-count: infinite;
 }
